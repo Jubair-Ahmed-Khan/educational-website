@@ -5,12 +5,12 @@ import React from 'react';
 const Course = (props) => {
     const { img, name, creator, duration, price } = props.course;
     // console.log(price);
-    const url = "./images/" + img;
+    const url = `./images/${img}`;
     const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />;
     return (
         <div>
             <div className="col">
-                <div className="card shadow-lg h-100">
+                <div className="card shadow-lg mb-sm-3 h-100">
                     {/* card image  */}
                     <img src={url} className="card-img-top  p-3" alt="course-img" style={{ height: "200px" }} />
 

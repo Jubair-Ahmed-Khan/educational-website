@@ -30,5 +30,93 @@
     "creator": "P.Warner",
     "duration": "6.3 hrs",
     "price": "280 tk"
+  },
+  {
+    "key": 5,
+    "img": "csharp.jpg",
+    "name": "Learn C#",
+    "creator": "K.Smith",
+    "duration": "6 hrs",
+    "price": "325 tk"
+  },
+  {
+    "key": 6,
+    "img": "java.jpg",
+    "name": "Java Fundamentals",
+    "creator": "A.Flintoff",
+    "duration": "9 hrs",
+    "price": "420 tk"
+  },
+  {
+    "key": 7,
+    "img": "js.jpg",
+    "name": "Javascript Basics",
+    "creator": "H.David",
+    "duration": "10 hrs",
+    "price": "380 tk"
+  },
+  {
+    "key": 8,
+    "img": "jquery.jpg",
+    "name": "Know JQuery",
+    "creator": "J.Hollub",
+    "duration": "4 hrs",
+    "price": "220 tk"
+  },
+  {
+    "key": 9,
+    "img": "react.jpg",
+    "name": "Master in React",
+    "creator": "J.Mahbub",
+    "duration": "12 hrs",
+    "price": "480 tk"
+  },
+  {
+    "key": 10,
+    "img": "node.jpg",
+    "name": "Node for Backend",
+    "creator": "B.Robert",
+    "duration": "7.5 hrs",
+    "price": "370 tk"
+  },
+  {
+    "key": 11,
+    "img": "php.jpg",
+    "name": "PHP Programming",
+    "creator": "F.Nelson",
+    "duration": "8.5 hrs",
+    "price": "440 tk"
+  },
+  {
+    "key": 12,
+    "img": "laravel.jpg",
+    "name": "Fun with Laravel",
+    "creator": "C.Harris",
+    "duration": "10.5 hrs",
+    "price": "500 tk"
+  },
+  {
+    "key": 13,
+    "img": "python.jpg",
+    "name": "Python Hero",
+    "creator": "G.Hawkins",
+    "duration": "14 hrs",
+    "price": "580 tk"
+  },
+  {
+    "key": 14,
+    "img": "django.jpg",
+    "name": "Django Basics",
+    "creator": "K.Petersen",
+    "duration": "7.2 hrs",
+    "price": "390 tk"
+  },
+  {
+    "key": 15,
+    "img": "r.jpg",
+    "name": "R for Beginners",
+    "creator": "P.Warner",
+    "duration": "6 hrs",
+    "price": "310 tk"
   }
 ]
