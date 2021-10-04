@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="container-fluid">
 
                     {/* Website logo  */}
-                    <NavLink className="navbar-brand text-danger fs-3 fw-bold" to="/home"><span className="text-warning">E-</span>Learning</NavLink>
+                    <NavLink className="navbar-brand text-danger fs-3 fw-bold" to="/home"><span className="text-warning">E-</span>Programming</NavLink>
 
                     {/* collapsed navbar  */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
