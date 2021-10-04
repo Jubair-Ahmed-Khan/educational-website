@@ -34,7 +34,7 @@ const Footer = () => {
 
                 {/* footer copyright  */}
                 <p className="text-center text-white my-5">
-                    &copy; 2021, All right reserved by E-Learning
+                    &copy; 2021, All right reserved by E-Programming
                 </p>
             </footer>
         </div>
