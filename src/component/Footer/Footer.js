@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-sm-8 col-md-7 py-4">
                             <h4 className="text-warning">Our Motto</h4>
-                            <p>Our goal is to provide useful resources to the people of our country at a very reasonable price. Our resources will help our students to go a long way in the future. We wish your every success. Your Success is our success.</p>
+                            <p>Our goal is to provide useful resources to the people of our country at a very reasonable price. Our resources will help our students to go a long way in the future. We wish your every success. Your success is our success.</p>
                         </div>
                         <div className="col-sm-4 offset-md-1 py-4">
                             <h4 className="text-warning">Contact</h4>

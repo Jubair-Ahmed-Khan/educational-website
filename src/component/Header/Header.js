@@ -17,14 +17,14 @@ const Header = () => {
                                 <NavLink className="nav-link header-link active" to="/home">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link header-link active" to="/about">About Us</NavLink>
+                                <NavLink className="nav-link header-link" to="/about">About Us</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link header-link active" to="/courses">Courses</NavLink>
+                                <NavLink className="nav-link header-link" to="/courses">Courses</NavLink>
                             </li>
-                            {/* <li className="nav-item">
-                                <NavLink className="nav-link active" to="/contact">Contact</NavLink>
-                            </li> */}
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/login">Login</NavLink>
+                            </li>
                         </ul>
 
                         <span className="navbar-text fs-3 fw-bold text-white">

@@ -21,7 +21,7 @@ const Home = () => {
                 <div className="container">
                     <div className="row py-5">
                         <div className="col-sm-12 col-md-8 col-lg-6 my-5">
-                            <div className="text-justify">
+                            <div>
                                 <h1 className="text-success text-uppercase">
                                     We Transform Vision <br />
                                     into Creative Results
