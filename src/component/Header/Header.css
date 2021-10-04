@@ -9,3 +9,7 @@
 .header-link:hover{
     color: orange;
 }
+
+.navbar-toggler{
+    color: white;
+}

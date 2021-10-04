@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -28,6 +27,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <p className="text-center text-white my-5">
+                    &copy; 2021, All right reserved by E-Learning
+                </p>
             </footer>
         </div>
     );

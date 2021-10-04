@@ -5,9 +5,9 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <nav className="navbar sticky-top navbar-expand-lg header-bg">
+            <nav className="navbar sticky-top navbar-expand-lg header-bg navbar-dark">
                 <div className="container-fluid">
-                    <NavLink className="navbar-brand text-danger fs-3 fw-bold" to="/products">E-Learning</NavLink>
+                    <NavLink className="navbar-brand text-danger fs-3 fw-bold" to="/products"><span className="text-warning">E-</span>Learning</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -20,16 +20,17 @@ const Header = () => {
                                 <NavLink className="nav-link header-link active" to="/about">About Us</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link header-link active" to="/services">Services</NavLink>
+                                <NavLink className="nav-link header-link active" to="/courses">Courses</NavLink>
                             </li>
                             {/* <li className="nav-item">
                                 <NavLink className="nav-link active" to="/contact">Contact</NavLink>
                             </li> */}
                         </ul>
 
-                        <span class="navbar-text fs-3 fw-bold text-info">
-                            <button className="btn btn-info text-white me-2">Log in</button>
-                            <button className="btn btn-info text-white me-2">Sign up</button>
+                        <span className="navbar-text fs-3 fw-bold text-white">
+                            <i className="fas fa-search me-4"></i>
+                            <i className="fas fa-shopping-cart me-4"></i>
+                            <i className="far fa-user me-4"></i>
                         </span>
                     </div>
                 </div>
