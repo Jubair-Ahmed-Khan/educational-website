@@ -17,16 +17,14 @@ const About = () => {
             .then(res => res.json())
             .then(data => setLeaders(data))
     }, [])
-    const leaderContainer = {
-        backgroundColor: "#fbfaf9"
-    }
+
     return (
         <div>
             <div className="container py-5">
                 <div className="row">
                     <div className="col-sm-12 col-md-8 col-lg-6">
                         <div className="me-5">
-                            <img className="img-fluid imgStyle" src={src} alt="welcome_image" />
+                            <img className="img-fluid img-style" src={src} alt="welcome_image" />
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-8 col-lg-6 py-5">
@@ -50,7 +48,7 @@ const About = () => {
                     }
                 </div>
             </div>
-            <div style={leaderContainer}>
+            <div className="leader-container">
                 <div className="container">
                     <div className="mb-5">
                         <p className="text-center text-danger">Our Team</p>

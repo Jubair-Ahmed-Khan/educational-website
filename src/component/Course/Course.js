@@ -3,16 +3,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const Course = (props) => {
+
+    // object destructuring 
     const { img, name, creator, duration, price } = props.course;
-    // console.log(price);
-    const url = `./images/${img}`;
+
+    //dynamic img src
+    const imgSrc = `./images/${img}`;
+
+    //cart icon
     const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />;
+
     return (
         <div>
             <div className="col">
                 <div className="card shadow-lg mb-3 h-100">
                     {/* card image  */}
-                    <img src={url} className="card-img-top  p-3" alt="course-img" style={{ height: "200px" }} />
+                    <img src={imgSrc} className="card-img-top  p-3" alt="course-img" style={{ height: "200px" }} />
 
                     {/* card info */}
                     <div className="card-body">

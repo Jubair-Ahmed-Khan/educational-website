@@ -1,15 +1,10 @@
+/* navbar background  */
 .header-bg{
     background-color: #082032;
 }
 
+/* navbar link  */
 .header-link{
     color: white;
 }
 
-.header-link:hover{
-    color: orange;
-}
-
-.navbar-toggler{
-    color: white;
-}

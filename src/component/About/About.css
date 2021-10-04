@@ -1,13 +1,22 @@
-.imgStyle{
+/* about section top image  */
+.img-style{
     height: 400px;
     width: 400px;
     border-radius: 100%;
 }
+
+/* about section top heading  */
 .heading-style{
     color: #00262b;
 }
 
+/* about section top texts  */
 .text-style{
     font-size: 22px;
     color: #42413f;
+}
+
+/* about section leader container  */
+.leader-container{
+    background-color: #fbfaf9;
 }

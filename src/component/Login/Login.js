@@ -2,21 +2,30 @@ import React from 'react';
 import { useHistory } from 'react-router';
 
 const Login = () => {
+
+    //login header image
     const src = "./images/login.jpg";
+
+    // history hook 
     const history = useHistory();
 
+    // button handler function 
     const handleClick = () => {
-        history.push('/home');
+        history.push('/home');  //if login button clicked it will go to home page
     }
     return (
         <div>
             <div className="container py-5">
                 <div className="row">
+
+                    {/* login header image  */}
                     <div className="col-sm-12 col-md-8 col-lg-6">
                         <div className="me-5">
                             <img className="img-fluid" src={src} alt="welcome_image" />
                         </div>
                     </div>
+
+                    {/* login form  */}
                     <div className="col-sm-12 col-md-8 col-lg-6 py-5">
                         <form className="bg-white p-5 shadow-lg">
                             <h1 className="text-primary mb-4">Login</h1>

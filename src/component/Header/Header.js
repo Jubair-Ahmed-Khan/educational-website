@@ -5,12 +5,18 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <nav className="navbar sticky-top navbar-expand-lg header-bg navbar-dark">
+            <nav className="navbar sticky-top navbar-expand-lg navbar-dark header-bg">
                 <div className="container-fluid">
-                    <NavLink className="navbar-brand text-danger fs-3 fw-bold" to="/products"><span className="text-warning">E-</span>Learning</NavLink>
+
+                    {/* Website logo  */}
+                    <NavLink className="navbar-brand text-danger fs-3 fw-bold" to="/home"><span className="text-warning">E-</span>Learning</NavLink>
+
+                    {/* collapsed navbar  */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
+
+                    {/* navbar menu  */}
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
@@ -27,6 +33,7 @@ const Header = () => {
                             </li>
                         </ul>
 
+                        {/* navbar icons  */}
                         <span className="navbar-text fs-3 fw-bold text-white">
                             <i className="fas fa-search me-4"></i>
                             <i className="fas fa-shopping-cart me-4"></i>

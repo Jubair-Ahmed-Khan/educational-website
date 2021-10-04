@@ -12,28 +12,34 @@ function App() {
   return (
     <div>
       <Router>
+
+        {/* header fixed for all pages */}
         <Header></Header>
+
         <Switch>
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/home">
+          <Route exact path="/home">
             <Home></Home>
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About></About>
           </Route>
-          <Route path="/courses">
+          <Route exact path="/courses">
             <Courses></Courses>
           </Route>
-          <Route path="/login">
+          <Route exact path="/login">
             <Login></Login>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
+
+        {/* footer fixed for all pages  */}
         <Footer></Footer>
+
       </Router>
     </div>
   );
