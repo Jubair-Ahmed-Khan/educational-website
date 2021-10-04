@@ -1,16 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import AboutInfo from '../AboutInfo/AboutInfo';
+import AboutLeader from '../AboutLeader/AboutLeader';
 import './About.css';
 
 const About = () => {
     const src = "./images/about.jpg";
     const [info, setInfo] = useState([]);
+    const [leaders, setLeaders] = useState([]);
     useEffect(() => {
         fetch('./aboutInfo.json')
             .then(res => res.json())
             .then(data => setInfo(data))
     }, [])
-    const personContainer = {
+    useEffect(() => {
+        fetch('./aboutLeader.json')
+            .then(res => res.json())
+            .then(data => setLeaders(data))
+    }, [])
+    const leaderContainer = {
         backgroundColor: "#fbfaf9"
     }
     return (
@@ -23,7 +30,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-8 col-lg-6 py-5">
-                        <h1 className="heading-style">Our Mission</h1>
+                        <h1 className="heading-style text-primary">Our Mission</h1>
                         <p className="text-style">There are three commitments we've made to the world. We've been grounded by these since day one:</p>
                         <ul className="text-style ms-2">
                             <li>Enhance teaching and learning</li>
@@ -33,8 +40,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="container shadow-lg p-5 my-5">
-                <div className="row row-cols-sm-1 row-cols-md-4 row-cols-lg-4 text-center ms-4">
+            <div className="container shadow-lg p-3 my-5">
+                <div className="row text-center">
                     {
                         info.map(inf => <AboutInfo
                             key={inf.key}
@@ -43,9 +50,21 @@ const About = () => {
                     }
                 </div>
             </div>
-            <div style={personContainer}>
+            <div style={leaderContainer}>
                 <div className="container">
+                    <div className="mb-5">
+                        <p className="text-center text-danger">Our Team</p>
+                        <h2 className="text-center text-danger">Leadership</h2>
+                    </div>
+                    <div className="row my-5">
+                        {
+                            leaders.map(leader => <AboutLeader
+                                key={leader.key}
+                                leader={leader}
+                            ></AboutLeader>)
+                        }
 
+                    </div>
                 </div>
             </div>
         </div>

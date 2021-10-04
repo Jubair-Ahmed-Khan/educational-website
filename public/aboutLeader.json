@@ -1,0 +1,47 @@
+[
+    {
+        "key": 1,
+        "name": "Henry David",
+        "designation": "Founder and CEO"
+    },
+    {
+        "key": 2,
+        "name": "Clara Joseph",
+        "designation": "Chief Marketing Officer"
+    },
+    {
+        "key": 3,
+        "name": "Mark Gough",
+        "designation": "Vice President and General Counsel"
+    },
+    {
+        "key": 4,
+        "name": "Steve Fleming",
+        "designation": "Vice President of Content Strategy"
+    },
+    {
+        "key": 5,
+        "name": "Roselin Gold",
+        "designation": "Chief commercial Officer"
+    },
+    {
+        "key": 6,
+        "name": "Lee Ruben",
+        "designation": "Vice President of Business Development"
+    },
+    {
+        "key": 7,
+        "name": "Peter Parker",
+        "designation": "Vice President of Finance"
+    },
+    {
+        "key": 8,
+        "name": "Alisa Perry",
+        "designation": "Vice President of Product"
+    },
+    {
+        "key": 9,
+        "name": "Priyanka Gomez",
+        "designation": "Vice President of Learning"
+    }
+]

@@ -3,7 +3,7 @@ import React from 'react';
 const AboutInfo = (props) => {
     const { count, topic } = props.info;
     return (
-        <div className="col py-2 mx-4 text-secondary">
+        <div className="col-sm-12 col-md-4 col-lg-4 py-2 text-secondary">
             <h2>{count}</h2>
             <p>{topic}</p>
         </div>
