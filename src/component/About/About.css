@@ -1,0 +1,13 @@
+.imgStyle{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+.heading-style{
+    color: #00262b;
+}
+
+.text-style{
+    font-size: 22px;
+    color: #42413f;
+}

@@ -4,15 +4,12 @@ import { useHistory } from 'react-router';
 const Login = () => {
     const src = "./images/login.jpg";
     const history = useHistory();
-    const loginStyle = {
-        backgroundColor: "white"
-    }
 
     const handleClick = () => {
         history.push('/home');
     }
     return (
-        <div style={loginStyle}>
+        <div>
             <div className="container py-5">
                 <div className="row">
                     <div className="col-sm-12 col-md-8 col-lg-6">
@@ -22,6 +19,7 @@ const Login = () => {
                     </div>
                     <div className="col-sm-12 col-md-8 col-lg-6 py-5">
                         <form className="bg-white p-5 shadow-lg">
+                            <h1 className="text-primary mb-4">Login</h1>
                             <div className="mb-3">
                                 <label for="exampleInputEmail1" className="form-label">Email address</label>
                                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -39,7 +37,6 @@ const Login = () => {
                             <button onClick={handleClick} type="submit" className="btn btn-primary w-100">Login</button>
                         </form>
                     </div>
-
                 </div>
             </div>
         </div>

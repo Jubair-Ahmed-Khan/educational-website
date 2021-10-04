@@ -1,0 +1,32 @@
+[
+    {
+        "key": 1,
+        "count": "100+",
+        "topic": "courses"
+    },
+    {
+        "key": 2,
+        "count": "520",
+        "topic": "courses"
+    },
+    {
+        "key": 3,
+        "count": "1000",
+        "topic": "users"
+    },
+    {
+        "key": 4,
+        "count": "50",
+        "topic": "partners"
+    },
+    {
+        "key": 5,
+        "count": "25",
+        "topic": "instructors"
+    },
+    {
+        "key": 6,
+        "count": "1000+",
+        "topic": "verified course certificates"
+    }
+]

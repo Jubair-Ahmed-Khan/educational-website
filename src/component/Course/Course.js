@@ -10,7 +10,7 @@ const Course = (props) => {
     return (
         <div>
             <div className="col">
-                <div className="card shadow-lg mb-sm-3 h-100">
+                <div className="card shadow-lg mb-3 h-100">
                     {/* card image  */}
                     <img src={url} className="card-img-top  p-3" alt="course-img" style={{ height: "200px" }} />
 
