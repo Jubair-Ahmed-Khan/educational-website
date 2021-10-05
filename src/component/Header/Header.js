@@ -1,15 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+import { useSpring, animated, config } from 'react-spring';
 
 const Header = () => {
+    //animation set
+    const [flip, set] = useState(false)
+
+    //animation properties
+    const props = useSpring({
+        to: { opacity: 1 },
+        from: { opacity: 0 },
+        reset: true,
+        reverse: flip,
+        delay: 900,
+        config: config.molasses,
+        onRest: () => set(!flip),
+    })
+
     return (
         <div>
             <nav className="navbar sticky-top navbar-expand-lg navbar-dark header-bg">
                 <div className="container-fluid">
 
-                    {/* Website logo  */}
-                    <NavLink className="navbar-brand text-danger fs-3 fw-bold" to="/home"><span className="text-warning">E-</span>Programming</NavLink>
+                    {/* Website animated logo  */}
+                    <animated.div style={props}>
+                        <NavLink className="navbar-brand text-danger fs-3 fw-bold" to="/home"><span className="text-warning">E-</span>Programming</NavLink>
+                    </animated.div>
 
                     {/* collapsed navbar  */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
